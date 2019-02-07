@@ -28,6 +28,14 @@ The key pair is your Firebase webpush certificate.
 
 8.  Call the [deleteToken() function](https://github.com/BFMarks/IterableWebPush/blob/00df3084d9912ed1d08b747dafbe591ee6dd9eb0/IterableWebPush.html#L187) when a user refreshes the page as this will acquire the latest token and re-update it to the Iterable server.  It is recommended to put this in periodically to ensure you have the most up-to-date browser token.
 
+9.  Got to your Iterable App and add your Server Key from Firebase.  
+![image alt text](https://www.evernote.com/shard/s652/sh/49cc51f6-6287-4427-81df-8cd1fac290ba/808f7b7c2d665285/res/338c51e4-d58e-40c0-9c75-de11dd59da0d/skitch.png)
+
+**TESTING:**
+Collect the current browser token from the console and add it the “Send test highlighted section”.  You should receive a test push on your browser.
+
+![image alt text](https://www.evernote.com/shard/s652/sh/77b9d64a-0fce-4cc2-83c1-b1e25ceba247/d2ac17764706022c/res/e1f07c2a-e8b7-4f77-92b0-a736260efaa2/skitch.png)
+
 **NOTES:**
 
 * **The webpush popup will not appear if the page is front and center.  It must be minimized or backgrounded.**
