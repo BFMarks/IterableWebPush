@@ -1,6 +1,6 @@
 **Firebase Files**
 
-Add the [manifest.json](https://github.com/BFMarks/IterableWebPush/blob/master/manifest.json) file to the route of your project.  It must be accessible from the URL. similar to this example:
+Add the [manifest.json](https://github.com/BFMarks/IterableWebPush/blob/master/manifest.json) file to the route of your project.  It must be accessible from the URL, similar to this example:
 
 
 ![alt text](https://www.evernote.com/shard/s652/sh/71e80fd2-e3bd-4cdd-9ee6-1b9c044e4974/06a4bc0d1f94d0f8/res/1edb23f7-afc6-4c18-a50e-2596ac542e21/skitch.png)
