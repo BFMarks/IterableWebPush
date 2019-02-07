@@ -1,17 +1,20 @@
+  <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
   <script>
     // Initialize Firebase
     // TODO: Replace with your project's customized code snippet
     var config = {
-      apiKey: "AIzaSyBDyr8UgEz_soDq-k9tFxk5zrvxAMj4Sqs",
-      authDomain: "cloudcastles-c2402.firebaseapp.com",
+      apiKey: "<FIREBASE_WEB_API_KEY>",
+      authDomain: "<PROJECT_ID>.firebaseapp.com",
       databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
-      projectId: "cloudcastles-c2402",
-      storageBucket: "cloudcastles-c2402.appspot.com",
-      messagingSenderId: "931558683098",
+      projectId: "<PROJECT_ID>",
+      storageBucket: "<PROJECT_ID>.appspot.com",
+      messagingSenderId: "<FIREBASE_SENDER_ID>",
     };
-    var iterable_apiKey = "079dd6113af341be8015d4b3630a3eb8"
-    var email = "imitchell+m02j@placeholder.email"
-    var usePublicVapidKey = 'BPjn3sPSaxWVfoHeBiPnjfe7j7tewUD7wxMkVgJyxmD4XgSuz38yW0KzSwSELTJsx9GkKQkSVAYyfYrmJcywTbA'
+    var iterable_apiKey = "<ITERABLE_API_KEY>"
+    var email = "<USER_EMAIL>"
+    var usePublicVapidKey = '<FIREBASE_WEBPUSH_CERTIFICATE>'
    firebase.initializeApp(config);
   </script>
 <!-- ITERABLE MUST HAVE -->
