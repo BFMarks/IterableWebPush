@@ -2,7 +2,7 @@
 
 Add the [manifest.json](https://github.com/BFMarks/IterableWebPush/blob/master/manifest.json) file to the route of your project.  It must be accessible from the URL. similar to this example:
 
-![image alt text](image_0.png)
+![alt text](https://www.evernote.com/shard/s652/sh/71e80fd2-e3bd-4cdd-9ee6-1b9c044e4974/06a4bc0d1f94d0f8/res/1edb23f7-afc6-4c18-a50e-2596ac542e21/skitch.png)
 
 Add the [firebase-messaging-sw.js](https://github.com/BFMarks/IterableWebPush/blob/master/firebase-messaging-sw.js) file right next to the manifest.json file.
 
@@ -14,7 +14,7 @@ Add the [firebase-messaging-sw.js](https://github.com/BFMarks/IterableWebPush/bl
 
 3. In the Web Push certificates tab, click Generate Key Pair. The console displays a notice that the key pair was generated, and displays the public key string and date added.
 
-![image alt text](image_1.png)
+![image alt text](https://www.evernote.com/shard/s652/sh/ba9f21d3-276c-4005-a0c4-9245f00e120c/6d3f36ad17674500/res/07ebd49d-813a-4e15-843b-0ef3f3986af1/skitch.png)
 
 The key pair is your Firebase webpush certificate.
 
