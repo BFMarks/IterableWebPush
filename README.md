@@ -1,4 +1,4 @@
-**Firebase Files**
+### **Firebase Files**
 
 Add the [manifest.json](https://github.com/BFMarks/IterableWebPush/blob/master/manifest.json) file to the route of your project.  It must be accessible from the URL, similar to this example:
 
@@ -8,11 +8,11 @@ Add the [manifest.json](https://github.com/BFMarks/IterableWebPush/blob/master/m
 
 Add the [firebase-messaging-sw.js](https://github.com/BFMarks/IterableWebPush/blob/master/firebase-messaging-sw.js) file right next to the manifest.json file.
 
-**Setup Project and Add Code**
+### **Setup Project and Add Code**
 
 1. Create your project on the [Firebase Console](https://console.firebase.google.com/).  Name your project 
 
-### 2. Open the [Cloud Messaging](https://console.firebase.google.com/project/_/settings/cloudmessaging/) tab of the Firebase console Settings pane and scroll to the Web configuration section.
+2. Open the [Cloud Messaging](https://console.firebase.google.com/project/_/settings/cloudmessaging/) tab of the Firebase console Settings pane and scroll to the Web configuration section.
 
 3. In the Web Push certificates tab, click Generate Key Pair. The console displays a notice that the key pair was generated, and displays the public key string and date added.
 
@@ -38,14 +38,14 @@ The key pair is your Firebase webpush certificate.
 
 
 
-**TESTING:**
+### **TESTING:**
 Open the Chrome console (option+command+j), collect the current browser token from the console and add it the “Send test push” highlighted section in Iterable Integration page.  You should receive a test push on your browser.
 
 ![image alt text](https://www.evernote.com/shard/s652/sh/77b9d64a-0fce-4cc2-83c1-b1e25ceba247/d2ac17764706022c/res/e1f07c2a-e8b7-4f77-92b0-a736260efaa2/skitch.png)
 
 
 
-**NOTES:**
+### **NOTES:**
 
 * **The webpush popup will not appear if the page is front and center.  It must be minimized or backgrounded.**
 
