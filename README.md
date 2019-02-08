@@ -24,7 +24,7 @@ The key pair is your Firebase webpush certificate.
 
 4. [Add the github code](https://github.com/BFMarks/IterableWebPush/blob/master/IterableWebPush.html) to your HTML file in the <script> section
 
-5. Change the credentials to your firebase credentials and Iterable credentials
+5. Change the credentials to your firebase credentials and Iterable credentials.  Don't forget the SENDER ID in the firebase-messaging-sw.js file.
 
 6.  Add the [requestPermission() function](https://github.com/BFMarks/IterableWebPush/blob/00df3084d9912ed1d08b747dafbe591ee6dd9eb0/IterableWebPush.html#L170) to the place in your code that you want to trigger the permission popup.  Typically, it’s right after signup once you have the user email.
 
